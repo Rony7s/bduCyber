@@ -8,6 +8,11 @@
     list-style: none;
 }
 
+.containerX {
+    width: 1280px;
+    margin: 0 auto;
+}
+
 .braind {
     height: 120px;
     background-color: #2C3759;
@@ -36,8 +41,62 @@
 .nav-link {
     color: #fff;
 }
-
+.noticeArea{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
 .btn-notice {
     background-color: #2C3759;
     color: #fff;
+}
+
+.content {
+    background-color: #2C3759;
+
+
+}
+
+.single-content {
+    display: flex;
+
+}
+
+.day {
+    width: 40px;
+    color: #fff;
+}
+
+.date {
+    margin-top: 15px;
+    font-size: 40px;
+    color: #fff;
+    line-height: 45px;
+}
+
+.month {
+    font-size: 10px;
+}
+
+.content-item {
+    padding: 10px;
+    width: 303px;
+    margin: 5px;
+    text-align: justify;
+    color: #fff;
+}
+
+.content-item .time {
+    line-height: 0px;
+    color: yellow;
+}
+
+.pHeading {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.content-item .passage {
+    font-size: 12px;
 }
