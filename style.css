@@ -8,13 +8,10 @@
     list-style: none;
 }
 
-.containerX {
-    width: 1280px;
-    margin: 0 auto;
-}
+ 
 
 .braind {
-    height: 120px;
+     
     background-color: #2C3759;
     color: #fff;
     padding: 35px;
@@ -24,18 +21,18 @@
     background-color: #2C3759;
 }
 .logo {
-    width: 120px;
+    
     margin: 0 15px 0 25px;
 }
 
 .title {
-    width: 700px;
+     
     font-size: 20px;
     margin-left: 20pxs;
 }
 
 .top_menu {
-    width: 370px;
+    
     font-size: 14px;
     color: white;
 }
