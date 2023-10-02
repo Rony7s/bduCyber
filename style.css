@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap');
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', serif;
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -101,4 +101,28 @@
 
 .content-item .passage {
     font-size: 12px;
+}
+.latest_news h1{
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+.latest_news_area{
+    background-color:#FFFFFF ;
+     
+}
+
+.Pagination-item{
+    
+    text-align: center;
+     
+}
+
+.single-event h5{
+    padding: 5px;
+    color: #2B6956;
+    line-height: 30px;
+}
+
+.socia-icons a{
+    margin-right: 20px;
 }

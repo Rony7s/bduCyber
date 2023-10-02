@@ -13,31 +13,38 @@
 
 <body>
     <!-- start heading area -->
-    <div class="containerX">
-        <div class="braind">
-            <img src="img/logo.png" alt="" class="logo">
-            <h1 class="title">Department of Cyber Security <br>Bangabandhu Sheikh Mujibur Rahman Digital University,
-                Bangladesh</h1>
-            <ul class="nav top_menu">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Moodle</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Library</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">UMS</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Login</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Link 1</a></li>
-                        <li><a class="dropdown-item" href="#">Link 2</a></li>
-                        <li><a class="dropdown-item" href="#">Link 3</a></li>
-                    </ul>
-                </li>
-
-            </ul>
+    <div class="container">
+        <div class="braind row">
+            <div class="col-8">
+                    <div class="row">
+                        <div class="col-2"><img src="img/logo.png" alt="" class="img-fluid"  class="logo"></div>
+                        <div class="col-10"><h1 class="title">Department of Cyber Security <br>Bangabandhu Sheikh Mujibur Rahman Digital University,
+                            Bangladesh</h1></div>
+                    </div>
+            </div>
+            <div class="col-4">
+                <ul class="nav top_menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Moodle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Library</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">UMS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Login</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Link 1</a></li>
+                            <li><a class="dropdown-item" href="#">Link 2</a></li>
+                            <li><a class="dropdown-item" href="#">Link 3</a></li>
+                        </ul>
+                    </li>
+    
+                </ul>
+            </div>
+            
         </div>
 
         <!-- start navigation bar area -->
@@ -63,7 +70,7 @@
         </ul>
         <!-- start slider area -->
         <div class="row">
-            <div class="col-8">
+            <div class="col-lg-8">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -108,7 +115,7 @@
                     </button>
                 </div>
             </div>
-            <div class="col-4 notice">
+            <div class="col-lg-4 notice">
                 <div class="noticeArea">
 
                     <div class="btn-group m-2">
@@ -138,7 +145,7 @@
         </div>
         <!-- content area -->
         <div class="row content p-3 m-0">
-            <div class="col-4 single-content">
+            <div class="single-content col-sm-6 col-lg-4">
                 <div class="day">
                     <div class="date">28</div>
                     <div class="month">November</div>
@@ -150,7 +157,7 @@
                         aliquid id saepe atque deserunt porro. Et quo distinctio ipsam </p>
                 </div>
             </div>
-            <div class="col-4 single-content">
+            <div class="single-content col-sm-6 col-lg-4">
                 <div class="day">
                     <div class="date">28</div>
                     <div class="month">November</div>
@@ -162,7 +169,7 @@
                         aliquid id saepe atque deserunt porro. Et quo distinctio ipsam </p>
                 </div>
             </div>
-            <div class="col-4 single-content">
+            <div class="single-content col-sm-6 col-lg-4">
                 <div class="day">
                     <div class="date">28</div>
                     <div class="month">November</div>
@@ -180,9 +187,9 @@
 
     <div class="container">
         <div class="row department_head m-2">
-            <div class="col-4">
+            <div class="col-sm-12 col-lg-4">
                 <div class="card mt-3" style="width:400px">
-                    <img class="card-img-top" src="img/img_avatar1.png" alt="Card image" style="width:100%">
+                    <img class="card-img-top" src="img/head.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
                         <h4 class="card-title">Mr. John Doe</h4>
                         <p class="card-text">Some example text some example text. John Doe is an architect and engineer
@@ -192,11 +199,12 @@
                 </div>
                 <br>
             </div>
-            <div class="col-8">
+            <div class="col-sm-12 col-lg-8">
                 <div class="p-5 rounded">
                     <h3 style="color: yellow;">Department Head’ Talks</h3>
                     <h1 style="color: white;">Name of Head</h1>
-                    <p style="text-align: justify; color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <p style="text-align: justify; color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                         nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
                         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
@@ -210,15 +218,23 @@
                         et quam dolore numquam earum, dolores velit? Illum iste consequuntur sed delectus, totam veniam.
                     </p>
 
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-primary">Read story</button>
-
+                    <div class="btn-group m-3">
+                        <button type="button" class="btn btn-primary">Read story <i
+                                class="fa-solid fa-arrow-right"></i></button>
                     </div>
 
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-primary">Facebook</button>
-                        <button type="button" class="btn btn-primary">Linkdin</button>
-                        <button type="button" class="btn btn-primary">Twitter</button>
+
+                    <div class="btn-group socia-icons">
+                        <a style="color: #3b5998;" href="#!" role="button"><i class="fab fa-facebook-f fa-lg"></i></a>
+
+                        <a style="color: #55acee;" href="#!" role="button"><i class="fab fa-twitter fa-lg"></i></a>
+
+                        <a style="color: #55acee;" href="#!" role="button"><i class="fab fa-youtube fa-lg"></i></a>
+
+                        <a style="color: #dd4b39;" href="#!" role="button"><i class="fab fa-google fa-lg"></i></a>
+
+                        <a style="color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram fa-lg"></i></a>
+
                     </div>
                 </div>
             </div>
@@ -227,7 +243,7 @@
 
 
 
-    <div class="container">
+    <div class="container latest_news_area">
         <div class="latest_news p-5 text-center">
             <h1>Latest News</h1>
             <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> ipsam nobis adipisci a sed ipsa incidunt
@@ -235,9 +251,9 @@
         </div>
 
         <div class="row">
-            <div class="col-4 p-3">
+            <div class="col-sm-6 col-lg-4 p-3">
                 <div class="articale p-4 rounded border" style="text-align: justify;">
-                    <img src="img/logo.png" alt="" class="img-thumbnail p-2" style="width: 100%;">
+                    <img src="img/bdub1.jpg" alt="" class="img-thumbnail p-2" style="width: 100%;">
                     <br>
                     <h4>Elmna’s in Silicon Valley: Finance vs Family</h4>
                     <a href="#">By Admin, on Nov 23th, 2020 | 1 days ago</a>
@@ -248,9 +264,9 @@
                     <a href="#" class="btn btn-primary">See more</a>
                 </div>
             </div>
-            <div class="col-4 p-3">
+            <div class="col-sm-6 col-lg-4 p-3">
                 <div class="articale p-4 rounded border" style="text-align: justify;">
-                    <img src="img/logo.png" alt="" class="img-thumbnail p-2" style="width: 100%;">
+                    <img src="img/bdub1.jpg" alt="" class="img-thumbnail p-2" style="width: 100%;">
                     <br>
                     <h4>Elmna’s in Silicon Valley: Finance vs Family</h4>
                     <a href="#">By Admin, on Nov 23th, 2020 | 1 days ago</a>
@@ -261,9 +277,9 @@
                     <a href="#" class="btn btn-primary">See more</a>
                 </div>
             </div>
-            <div class="col-4 p-3">
+            <div class="col-sm-6 col-lg-4 p-3">
                 <div class="articale p-4 rounded border" style="text-align: justify;">
-                    <img src="img/logo.png" alt="" class="img-thumbnail p-2" style="width: 100%;">
+                    <img src="img/bdub1.jpg" alt="" class="img-thumbnail p-2" style="width: 100%;">
                     <br>
                     <h4>Elmna’s in Silicon Valley: Finance vs Family</h4>
                     <a href="#">By Admin, on Nov 23th, 2020 | 1 days ago</a>
@@ -275,17 +291,77 @@
                 </div>
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-4 Pagination-item"><button type="button" class="btn btn-primary"><i
+                        class="fa-solid fa-arrow-left"></i></button></div>
+            <div class="col-4 Pagination-item"><button type="button" class="btn btn-primary">Load More</button></div>
+            <div class="col-4 Pagination-item"><button type="button" class="btn btn-primary"><i
+                        class="fa-solid fa-arrow-right"></i></button></div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-lg-4 single-event mt-3">
+                <img src="img/bdub1.jpg" class="img-fluid" alt="">
+                <h5>Mobile App</h5>
+                <h2>Global Android Programmer Meetup 2020 </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ....</p>
+                <a href="#" class="btn btn-primary">See more</a>
+
+            </div>
+            <div class="col-sm-6 col-lg-4 single-event mt-3">
+                <img src="img/bdub1.jpg" class="img-fluid" alt="">
+                <h5>Mobile App</h5>
+                <h2>Global Android Programmer Meetup 2020 </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ....</p>
+                <a href="#" class="btn btn-primary">See more</a>
+
+            </div>
+            <div class="col-sm-6 col-lg-4 single-event mt-3">
+                <img src="img/bdub1.jpg" class="img-fluid" alt="">
+                <h5>Mobile App</h5>
+                <h2>Global Android Programmer Meetup 2020 </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ....</p>
+                <a href="#" class="btn btn-primary">See more</a>
+
+            </div>
+        </div>
     </div>
 
 
-
-
+    <br>
 
 
     <div class="container">
         <footer class="py-5">
             <div class="row">
-                <div class="col-2">
+                <div class="col-md-4">
+
+                    <img src="img/logo.png" width="150px" alt="">
+                    <br><br>
+                    <h6>Bangabandhu Sheikh Mujibur Rahman Digital University, Bangladesh is the first specialized
+                        government digital university in Bangladesh.</h6>
+                    <p>Follow us.</p>
+                    <div class="socia-icons">
+                        <a style="color: #3b5998;" href="#!" role="button"><i class="fab fa-facebook-f fa-lg"></i></a>
+
+                        <a style="color: #55acee;" href="#!" role="button"><i class="fab fa-twitter fa-lg"></i></a>
+
+                        <a style="color: #55acee;" href="#!" role="button"><i class="fab fa-youtube fa-lg"></i></a>
+
+                        <a style="color: #dd4b39;" href="#!" role="button"><i class="fab fa-google fa-lg"></i></a>
+
+                        <a style="color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram fa-lg"></i></a>
+                    </div>
+
+                </div>
+                <div class="col-md-2">
                     <h5>Section</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
@@ -296,7 +372,7 @@
                     </ul>
                 </div>
 
-                <div class="col-2">
+                <div class="col-md-2">
                     <h5>Section</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
@@ -307,7 +383,7 @@
                     </ul>
                 </div>
 
-                <div class="col-2">
+                <div class="col-md-2">
                     <h5>Section</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
@@ -318,40 +394,24 @@
                     </ul>
                 </div>
 
-                <div class="col-4 offset-1">
-                    <form>
-                        <h5>Subscribe to our newsletter</h5>
-                        <p>Monthly digest of whats new and exciting from us.</p>
-                        <div class="d-flex w-100 gap-2">
-                            <label for="newsletter1" class="visually-hidden">Email address</label>
-                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                            <button class="btn btn-primary" type="button">Subscribe</button>
-                        </div>
-                    </form>
+                <div class="col-md-2">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">info@bdu.ac.bd</a></li>
+                    </ul>
                 </div>
+
             </div>
 
             <div class="d-flex justify-content-between py-4 my-4 border-top">
                 <p>Bangabandhu Sheikh Mujibur Rahman Digital University, Bangladesh © 2023 All Rights Reserved</p>
-                <ul class="list-unstyled d-flex">
-                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                                <use xlink:href="#twitter"></use>
-                            </svg></a></li>
-                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                                <use xlink:href="#instagram"></use>
-                            </svg></a></li>
-                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                                <use xlink:href="#facebook"></use>
-                            </svg></a></li>
-                </ul>
             </div>
         </footer>
     </div>
-
-
-
-
-
 </body>
 
 </html>
